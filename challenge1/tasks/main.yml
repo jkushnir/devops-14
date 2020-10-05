@@ -1,0 +1,6 @@
+---
+- name: Create a hello world text file in tmp directory
+  lineinfile:
+    path: /tmp/test1
+    line: Hello world! 
+    create: yes

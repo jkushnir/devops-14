@@ -1,0 +1,9 @@
+---
+- name: Install vim and zip
+  become: yes
+  apt:
+    pkg:
+    - vim
+    - zip
+    state: present
+    update_cache: true
